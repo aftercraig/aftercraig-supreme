@@ -18,12 +18,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    pointer-events: none;
 }
 
 .supreme {
     width: 287px;
     height: 82px;
     font-size: 60px;
+    font-style: italic;
     color: #FFFFFF;
     background-color: #FF0000;
     text-align: center;
@@ -62,6 +64,7 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 78px;
+    pointer-events: none;
 }
 
 .social-style {

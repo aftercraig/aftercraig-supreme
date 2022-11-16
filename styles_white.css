@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+header {
+	height: 180px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.supreme-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	pointer-events: none;
+}
+
+.supreme {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+    width: 287px;
+    height: 82px;
+    font-size: 60px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.date {
+    padding-top: 49px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.main-block {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 62px;
+}
+
+.text-block {
+	padding-left: 20px;
+}
+
+.text {
+	width: 400px;
+	font-family: 'Space Mono', monospace;
+}
+
+.date-name {
+	padding-bottom: 24px;
+}
+
+.archive {
+	width: 86px;
+	padding-top: 20px;
+}
+
+.link-style {
+	color: #000000;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.link-style:hover {
+	color: #FFFFFF;
+	background-color: #FF0000;
+	transition: linear 0.2s;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 38px;
+}
+
+.supreme-name {
+	font-size: 25px;
+}
+
+.carousel-block {
+	display: flex;
+	flex-direction: row;
+	padding-top: 45px;
+}
+
+.arrow {
+	padding: 30px 0 20px 10px;
+}
+
+.carousel {
+	font-size: 20px;
+	font-family: 'Space Mono', monospace;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.bottom-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style-type: none;
+	padding-top: 125px;
+}
+
+.links-style {
+	font-size: 20px;
+	color: #000000;
+	font-family: 'Space Mono', monospace;
+	text-decoration: none;
+	max-width: 920px;
+}
+
+.links-style:hover {
+	color: #FFFFFF;
+	background-color: #FF0000;
+	transition: linear 0.2s;
+}
+
+footer {
+	height: 99px;
+}
+
+@media (max-width: 809px) {
+	header {
+		height: 100px;
+	}
+	.carousel {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.arrow {
+		padding-top: 0;
+	}
+	.bottom-links {
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 391px) {
+	.text {
+		transform: scale(0.8);
+	}
+	.bottom-links {
+		transform: scale(0.8);
+	}
+}

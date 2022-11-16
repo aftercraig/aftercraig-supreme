@@ -1,3 +1,3 @@
 # aftercraig-supreme
 
-Adaptive web page.
+Adaptive supreme web page.
